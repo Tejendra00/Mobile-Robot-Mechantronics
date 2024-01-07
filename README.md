@@ -12,10 +12,12 @@ In the world of robotics, combining mechanical engineering, advanced electronics
 
 Our main goals were to make the robot follow walls closely, track a beacon accurately, and push a model of a police car. Achieving these goals meant bringing together the mechanical structure, electrical systems, and software of the robot in a way that shows our technical skill and creativity.
 
-<div style="display: flex; justify-content: center;">
-  <img src="imgs/intro1.png" style="margin-right: 10px;" width="300">
-  <img src="imgs/intro2.png" width="300">
-</div>
+<table align="center">
+  <tr>
+    <td><img src="imgs/intro1.png" alt="First Image"></td>
+    <td><img src="imgs/intro2.png" alt="Second Image"></td>
+  </tr>
+</table>
 
 
 ## Mechanical Design
@@ -67,10 +69,12 @@ Motor drivers are interfaced with the ESP32 S2 microcontroller. PWM signals cont
 
 <b>Secondary Controllers- ATMega32u4: </b> Dedicated to specific tasks like IR beacon tracking, providing efficient task segregation and parallel processing.
 
-<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
-  <img src="imgs/esp.png" style="margin-right: 10px;" width="300">
-  <img src="imgs/atme.png" width="300">
-</div>
+<table align="center">
+  <tr>
+    <td><img src="imgs/esp.png" alt="First Image"></td>
+    <td><img src="imgs/atme.png" alt="Second Image"></td>
+  </tr>
+</table>
 
 
 ### 2. Firmware Development
@@ -89,10 +93,14 @@ Motor drivers are interfaced with the ESP32 S2 microcontroller. PWM signals cont
 
 <b> c. vive positioning: </b> Vive detection circuit is used as a positioning device to localize the robot with respect to world frame.
 
-<div style="display: flex; justify-content: center;">
-  <img src="imgs/vive.png" style="margin-right: 10px;" width="200">
-  <img src="imgs/ir.png" width="200">
-</div>
+<table align="center">
+  <tr>
+    <td><img src="imgs/vive.png" alt="First Image"></td>
+    <td><img src="imgs/ir.png" alt="Second Image"></td>
+  </tr>
+</table>
+
+
 
 Combining data from ultrasonic sensors, IR sensors, and the Vive system for accurate environmental perception and decision-making.
 
