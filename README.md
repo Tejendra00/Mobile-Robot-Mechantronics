@@ -113,6 +113,8 @@ For this a frequency detection circuit is employed with secondary ATMega32U4 con
 Upon both phototransistors indicating a high signal (beacon detected), the robot moves forward.
 If the beacon is not detected, the robot rotates counterclockwise. This flow ensures the robot autonomously follows the beacon’s signal and adjusts its movement accordingly.
 
+GIF takes time to load.
+
 <p align="center">
   <img src="imgs/beacon1.gif"width="300" >
 </p>
@@ -120,6 +122,8 @@ If the beacon is not detected, the robot rotates counterclockwise. This flow ens
 
 ### 2. Police Car Push
 The software uses Vive trackers for positioning and includes PID control for movement and rotation. It establishes a WiFi connection, sends UDP packets with positional information. The robot sweeps in the Y-direction based on Vive location data until it aligns with the police car location sent over UDP. It then moves forward, pushing the police car.
+
+GIF takes time to load.
 
 <p align="center">
   <img src="imgs/policecar.gif"width="300" >
@@ -133,6 +137,8 @@ The wall-following algorithm utilizes two ultrasonic sensors.
 <b>calculateMecanumWheelSpeeds():</b> Determines individual wheel speeds for the mecanum wheels based on the estimated error.
 
 <b>Process Flow:</b> The loop function continuously reads distances from the ultrasonic sensors, adjusts motor speeds to maintain the desired distance from the wall, and triggers a rotational movement if needed.
+
+GIF takes time to load.
 
 <p align="center">
   <img src="imgs/wall.gif"width="300" >
