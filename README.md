@@ -3,7 +3,7 @@
   <img src="https://raw.githubusercontent.com/PKief/vscode-material-icon-theme/ec559a9f6bfd399b82bb44393651661b08aaf7ba/icons/folder-markdown-open.svg" width="100" />
 </p>
 <p align="center">
-    <h1 align="center">-Embedded-Mobile-Robot</h1>
+    <h1 align="center">Embedded-Mobile-Robot</h1>
 </p>
 </div>
 
@@ -67,7 +67,7 @@ Motor drivers are interfaced with the ESP32 S2 microcontroller. PWM signals cont
 
 <b>Secondary Controllers- ATMega32u4: </b> Dedicated to specific tasks like IR beacon tracking, providing efficient task segregation and parallel processing.
 
-<div style="display: flex; justify-content: center;">
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
   <img src="imgs/esp.png" style="margin-right: 10px;" width="300">
   <img src="imgs/atme.png" width="300">
 </div>
