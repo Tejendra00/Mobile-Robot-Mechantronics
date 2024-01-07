@@ -32,7 +32,7 @@ The chassis is laser-cut from acrylic, providing a sturdy yet lightweight founda
 <b>Design Considerations:</b> A modular approach with strategic placement of components for optimized space utilization and functionality.
 
 <p align="center">
-  <img src="imgs/mecha.png"width="250" >
+  <img src="imgs/mecha.png"width="300" >
 </p>
 
 ## Electrical Design : 
@@ -50,7 +50,7 @@ The chassis is laser-cut from acrylic, providing a sturdy yet lightweight founda
 Motor drivers are interfaced with the ESP32 S2 microcontroller. PWM signals control the speed, and digital signals determine the direction.
 
 <p align="center">
-  <img src="imgs/motor.png"width="250" >
+  <img src="imgs/motor.png"width="350" >
 </p>
 
 
@@ -71,8 +71,8 @@ Motor drivers are interfaced with the ESP32 S2 microcontroller. PWM signals cont
 
 <table align="center">
   <tr>
-    <td><img src="imgs/esp.png" alt="First Image"></td>
-    <td><img src="imgs/atme.png" alt="Second Image"></td>
+    <td><img src="imgs/esp.png" alt="First Image" width="250"></td>
+    <td><img src="imgs/atme.png" alt="Second Image" width="250"></td>
   </tr>
 </table>
 
@@ -114,7 +114,7 @@ Upon both phototransistors indicating a high signal (beacon detected), the robot
 If the beacon is not detected, the robot rotates counterclockwise. This flow ensures the robot autonomously follows the beacon’s signal and adjusts its movement accordingly.
 
 <p align="center">
-  <img src="imgs/beacon1.gif"width="250" >
+  <img src="imgs/beacon1.gif"width="300" >
 </p>
 
 
@@ -122,7 +122,7 @@ If the beacon is not detected, the robot rotates counterclockwise. This flow ens
 The software uses Vive trackers for positioning and includes PID control for movement and rotation. It establishes a WiFi connection, sends UDP packets with positional information. The robot sweeps in the Y-direction based on Vive location data until it aligns with the police car location sent over UDP. It then moves forward, pushing the police car.
 
 <p align="center">
-  <img src="imgs/policecar.gif"width="250" >
+  <img src="imgs/policecar.gif"width="300" >
 </p>
 
 
@@ -135,7 +135,7 @@ The wall-following algorithm utilizes two ultrasonic sensors.
 <b>Process Flow:</b> The loop function continuously reads distances from the ultrasonic sensors, adjusts motor speeds to maintain the desired distance from the wall, and triggers a rotational movement if needed.
 
 <p align="center">
-  <img src="imgs/wall.gif"width="250" >
+  <img src="imgs/wall.gif"width="300" >
 </p>
 
 
